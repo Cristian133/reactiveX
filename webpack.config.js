@@ -14,7 +14,7 @@ module.exports = {
   },
   devServer: {
     headers: {
-      "Content-Security-Policy": "default-src 'self'; img-src 'self' data:;",
+      "Content-Security-Policy": "default-src 'self'; img-src 'self' data:; connect-src 'self' https://api.github.com;",
     },
     static: {
       directory: path.join(__dirname, "./"),
