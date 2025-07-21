@@ -1,6 +1,6 @@
 import { from } from "rxjs";
 import { distinctUntilKeyChanged } from "rxjs/operators";
-import { ObserverLog } from './enums/observer-log.enum';
+import { ObserverLog } from '../enums/observer-log.enum';
 
 interface Persona {
     nombre: string;
