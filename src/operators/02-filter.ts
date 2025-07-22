@@ -1,6 +1,6 @@
-import { from, fromEvent, range } from "rxjs";
-import { filter, map } from "rxjs/operators";
-import { Key } from "../enums/keys";
+import { from, fromEvent, range } from 'rxjs';
+import { filter, map } from 'rxjs/operators';
+import { Key } from '../enums/keys';
 
 
 range(1, 10).pipe(

@@ -1,9 +1,9 @@
-import { fromEvent } from "rxjs";
-import { map } from "rxjs/operators";
-import { LoremIpsum } from "../consts/loreipsum";
-import { HTMLElementTag } from "../enums/html-element-tag";
-import { HTMLAttribute } from "../enums/html-atributes";
-import { EventType } from "../enums/events";
+import { fromEvent } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { LoremIpsum } from '../consts/loreipsum';
+import { HTMLElementTag } from '../enums/html-element-tag';
+import { HTMLAttribute } from '../enums/html-atributes';
+import { EventType } from '../enums/events';
 
 const texto = document.createElement(HTMLElementTag.Div);
 texto.innerHTML = LoremIpsum;

@@ -1,7 +1,7 @@
-import { fromEvent, interval, skip, takeUntil, tap } from "rxjs";
-import { HTMLElementTag } from "../enums/html-element-tag";
+import { fromEvent, interval, skip, takeUntil, tap } from 'rxjs';
+import { HTMLElementTag } from '../enums/html-element-tag';
 import { ObserverLog } from '../enums/observer-log.enum';
-import { EventType } from "../enums/events";
+import { EventType } from '../enums/events';
 
 const observer = {
     next: (value: number ) => console.log(ObserverLog.Next + ':', value),

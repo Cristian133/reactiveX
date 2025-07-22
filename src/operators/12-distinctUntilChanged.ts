@@ -1,5 +1,5 @@
-import { from } from "rxjs";
-import { distinct, distinctUntilChanged } from "rxjs/operators";
+import { from } from 'rxjs';
+import { distinct, distinctUntilChanged } from 'rxjs/operators';
 import { ObserverLog } from '../enums/observer-log.enum';
 
 const observer = {
