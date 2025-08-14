@@ -9,5 +9,8 @@ forkJoin({
     num: numbers$,
     inter: interval$,
     let: letters$
-})
-.subscribe( console.log )
+}).pipe(
+    take(1)
+)
+.subscribe( ({num, inter, let: letter}) =>
+    console.log(`num: ${num}, inter: ${inter}, letter: ${letter}`) )
