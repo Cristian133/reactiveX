@@ -14,7 +14,7 @@ module.exports = {
   },
   devServer: {
     headers: {
-      "Content-Security-Policy": "default-src 'self' data: https://fonts.googleapis.com  https://fonts.gstatic.com; img-src 'self' data: https://avatars.githubusercontent.com; connect-src 'self' https://api.github.com https://httpbin.org https://fonts.googleapis.com https://reqres.in;",
+      "Content-Security-Policy": "default-src 'self' data: https://fonts.googleapis.com  https://fonts.gstatic.com; img-src 'self' data: https://avatars.githubusercontent.com; connect-src 'self' https://api.github.com https://httpbin.org https://fonts.googleapis.com https://reqres.in https://swapi.dev;",
     },
     static: {
       directory: path.join(__dirname, "./"),
